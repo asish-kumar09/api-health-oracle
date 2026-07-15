@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 
-const API = "http://localhost:5000";
+const API = "https://api-health-oracle-1.onrender.com";
 
 const statusColors = {
   up: { bg: "#1f2d1f", color: "#3fb950", label: "UP" },
